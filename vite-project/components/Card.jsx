@@ -19,10 +19,10 @@ Notes:
   this data into the component.
 */
 
-export default function Card() {
+export default function Card(props) {
     return (
         <div className="card">
-            <img src="../images/katie-zaferes.png" className="card--image" />
+            <img src="{props.img}" className="card--image" />
             <div className="card--stats">
                 <img src="../images/star.png" className="card--star" />
                 <span>5.0</span>
