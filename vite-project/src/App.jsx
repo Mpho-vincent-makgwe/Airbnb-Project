@@ -11,10 +11,9 @@ function App() {
         <><div>
             <NavBar />
             <Hero />
-            <Card />
+            <Card/>
             <Main />
             <DisplayC />
-            {console.log(`Welcome`)}
         </div>
         </>
     )
